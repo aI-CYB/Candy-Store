@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Candy Store</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="/icon/favicon.ico">
+</head>
+<body>
+  <nav class="navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="active navbar-brand" href="ecommerce.html">Candy Store</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#AboutUs"> About Us <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="category.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="category.html">Jelly Belly</a></li>
+              <li><a href="category.html">Sweets</a></li>
+              <li><a href="category.html">Сhocolates</a></li>
+              <li><a href="category.html">Cookies</a></li>
+              <li><a href="category.html">Drinks</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="category.html">All Categories</a></li>
+            </ul>
+          </li>
+          <li><a href="#Contacts"> Contacts <span class="sr-only">(current)</span></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="badge pull-right">4</span><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
+          <li><a href="account.html"><i class="glyphicon glyphicon-user"></i></a></li>
+          <li><a href="signin.html">Sign In</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container" style="width:700px; height:400px;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img class="d-block w-100" src="https://cdn.dribbble.com/users/1603968/screenshots/10203832/oreo2_4x.jpg" alt="oreo" style="width:100%;">
+          <div class="carousel-caption">
+            <h3> Oreo with new BOX </h3>
+            <p> Twist! Lick! Dunk!</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="d-block w-100" src="https://candystore.kz/wp-content/uploads/2016/06/Bean-Boozled-Jumbo.jpg" alt="Bean Boozled" style="width:80%;">
+          <div class="carousel-caption">
+            <h3>Bean Boozled</h3>
+            <p> ALLForTaste!!!</p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="d-block w-100" src="https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/518145/DEmMspPuhMbKznNyRrKPA.jpeg" alt="milka-oreo" style="width:100%;">
+          <div class="carousel-caption">
+            <h3> New Milka chocolates with Oreo</h3>
+            <p> Fabulously gentle chocolate!</p>
+          </div>
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="row" style="margin-left:30px; margin-top:100px;">
+    <div class="col-sm-4 col-md-3">
+      <h3>Categories</h3>
+      <div class="list-group">
+        <a href="category.html" class="list-group-item">Jelly Belly</a>
+        <a href="category.html" class="list-group-item">Sweets</a>
+        <a href="category.html" class="list-group-item">Chocolates</a>
+        <a href="category.html" class="list-group-item">Cookies</a>
+        <a href="category.html" class="list-group-item">Drinks</a>
+      </div>
+    </div>
+  </div>
+  <!-- /.container class with content as the id-->
+  <div class="col-sm-8 col-md-9" style="float:left;">
+    <h2>
+      TOP-3 Best Sellers of May
+    </h2>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://candystore.kz/wp-content/uploads/2016/06/Bean-Boozled-45-%D0%B3.jpg" alt="">
+          <div class="add-to-cart">
+            <a href="#" class="glyphicon glyphicon-plus-sign" data-toggle="tooltip" data-placement="top" title="Add to cart"></a>
+          </div>
+          <div class="caption">
+            <h4 class="pull-right">1895 KZT</h4>
+            <h4><a href="product.html">1<sup>st</sup> Product</a>
+            </h4>
+            <p>Bean Boozled – конфеты для тех, кто любит рисковать!</p>
+            <div class="ratings">
+              <p class="pull-right"><a href="product.
+   html#comments">15 reviews</a></p>
+              <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-8 col-md-9" style="float:Left;">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://candystore.kz/wp-content/uploads/2017/05/Toxic-Waste.jpg" alt="">
+          <div class="add-to-cart">
+            <a href="#" class="glyphicon glyphicon-plus-sign" data-toggle="tooltip" data-placement="top" title="Add to cart"></a>
+          </div>
+          <div class="caption">
+            <h4 class="pull-right">1300 KZT</h4>
+            <h4><a href="product.html">2<sup>nd</sup> Product</a>
+            </h4>
+            <p>Самые кислые конфеты в мире Toxic Waste в желтой бочке</p>
+            <div class="ratings">
+              <p class="pull-right"><a href="product.
+    html#comments">36 reviews</a></p>
+              <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-8 col-md-9" style="float:left;">
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="https://candystore.kz/wp-content/uploads/2017/04/Jelly-Belly-Dory.jpg" alt="">
+          <div class="add-to-cart">
+            <a href="#" class="glyphicon glyphicon-plus-sign" data-toggle="tooltip" data-placement="top" title="Add to cart"></a>
+          </div>
+          <div class="caption">
+            <h4 class="pull-right">1700 KZT</h4>
+            <h4><a href="product.html">3<sup>rd</sup> Product</a>
+            </h4>
+            <div class="ratings">
+              <p class="pull-right"><a href="product.
+     html#comments">21 reviews</a></p>
+              <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="AboutUs" class="container-fluid" style="position:absolute; left:400px; top:600px; margin-left:40px;">
+    <div class="row">
+      <div class="col-sm-8" styly="border:100px;">
+        <h2>About Store</h2><br>
+        <h3>SWEETS FROM EUROPE AND AMERICA - IN THE CANDY STORE ONLINE</h3><br>
+        <p>Is your gift again lost among the pile of packages and boxes? </p>
+        <p>Do you know how to attract the attention of a person who is showered with gifts by fans? Is your box of chocolates being looked at with boredom? </p>
+        <p>Give unusual gifts! Surprise! Hand over emotions! </p>
+        <p> It is not difficult to sparkle in the eyes of a dear person if you buy a gift from the Candy Store. We have created our online store of sweet gifts precisely so that you can buy something tasty and sweet, unusual and original, amazing and
+          delightful:
+          sylish sets with amazing sweets; sweet gifts with a humorous presentation; bright packages filled with insanely delicious sweets; creative sets with funny motivators;
+          as well as many other emotional gifts!We have prepared all these wonderful sweets from Europe and America specifically so that your gifts will always stand out and be remembered. Present unusual sweets in creative packaging! A bonus to
+          goodies is a good mood hidden in every can, box or Candy Store package.
+          Original gifts from "Candy Store" are so unusual that when candies and gummies run out ... The packaging is left as a keepsake!</p>
+        <br>
+      </div>
+    </div>
+    <div id="Contacts" class="container-fluid">
+    </div>
+    <br>
+    <br>
+
+    <div class="contact" id="Contacts">
+      <h2>Contacts</h2>
+      <br>
+      <h3>Phone for ordering:</h3>
+      <h5>+7 707 455 88 80 (WhatsApp)</h5>
+      <br>
+      <h3>Be with us on VKontakte</h3>
+      <p>
+      <h4>vk.com/candystorekz</h4>
+      <br>
+      <h3>Subscribe to our Instagram</h3>
+      <h4>instagram.com/candystorekz</h4>
+      <br>
+      <h4>
+        Delivery is carried out on weekdays from 11:00 to 22:00,
+        on weekends and holidays by prior arrangement by phone.
+      </h4>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+<center>
+  <footer style="position:absolute; top:2360px;">
+
+    <div class="container">
+      <hr />
+      <div class="row">
+        <div class="col-lg-12">
+          <p> 2021 &copy ONLINE CANDY STORE</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</center>
+
+</html>
